@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints the text with proper grammar, but the outcome is a piece of art
+ * main - prints the text with proper grammar, 
+ * but the outcome is a piece of art,
  *
  * Return: 0 if excited properly, non-zero otherwise
  */
