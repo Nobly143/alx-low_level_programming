@@ -3,10 +3,8 @@
 #include <stdio.h>
 /**
  * main - initiates and compares last digit 
- *
  * Return: 0 if Success
- * 
- */
+ */ 
 int main(void)
 {
 	int n;
