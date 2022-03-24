@@ -8,25 +8,14 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, comp;
-
-	i = 0;
-
-	while (s1[i] != '\0')
+	while (*s1 == *s2)
 	{
-		i++;
+		if (*s1 == '\0')
+		{
+			return (0);
+		}
+		s1++;
+		s2++;
 	}
-
-	j = 0;
-
-	while (s2[j] != '\0')
-	{
-		j++;
-	}
-
-	if (i == j)
-		comp = 0;
-	else
-		comp = *s1 - *s2;
-	return (comp);
+	return (*s1 - *s2);
 }
