@@ -24,11 +24,9 @@ int _strcmp(char *s1, char *s2)
 		j++;
 	}
 
-	if (i < j)
-		comp = -15;
-	else if (i == j)
+	if (i == j)
 		comp = 0;
-	else if (i > j)
-		comp = 15;
+	else
+		comp = *s1 - *s2;
 	return (comp);
 }
