@@ -10,6 +10,8 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int len;
+	
+	len = 0;
 
 	while (src[len] != '\0' && len < n)
 	{
