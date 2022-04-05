@@ -20,6 +20,9 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
+	if (b == NULL)
+		return (0);
+
 	i = 0;
 
 	while (i < size)
