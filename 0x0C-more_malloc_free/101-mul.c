@@ -57,13 +57,13 @@ int main(int argc, char *argv[])
 	int len1, len2, len, i, carry, digit1, digit2, *mul, a = 0;
 
 	num1 = argv[1], num2 = argv[2];
-	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
+	if (argc != 3 || !is_digit(num1) || !is_digit(num2))
 		errors();
 	len1 = _strlen(num1);
 	len2 = _strlen(num2);
 	len = len1 + len2 + 1;
 	mul = malloc(sizeof(int) * len);
-	if (!result)
+	if (!mul)
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
 		mul[i] = 0;
@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
 	{
 		digit1 = num1[len1] - '0';
 		carry = 0;
-		for (len2 = _strlen(s2) - 1; len2 >= 0; len2--)
+		for (len2 = _strlen(num2) - 1; len2 >= 0; len2--)
 		{
 			digit2 = num2[len2] - '0';
 			carry += mul[len1 + len2 + 1] + (digit1 * digit2);
