@@ -55,9 +55,8 @@ int main(int argc, char *argv[])
 {
 	char *num1, *num2;
 	int len1, len2, len, i, carry, digit1, digit2, *mul, a = 0;
-	
-	num1 = argv[1], num2 = argv[2];
 
+	num1 = argv[1], num2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
 	len1 = _strlen(num1);
