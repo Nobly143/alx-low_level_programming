@@ -1,4 +1,4 @@
-#Variadic Functions
+# Variadic Functions
 
 This covers variadic functions and their importance, 
 basically covers the following:
@@ -17,4 +17,4 @@ basically covers the following:
 * Function that prints strings.
 
 ## File 3
-* Function that prints anything passsed to it .
+* Function that prints anything passsed to it.
