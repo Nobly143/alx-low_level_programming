@@ -25,4 +25,8 @@ Some Advanced tasks
 ### File 101
 More advanced task
 
+### Header files
+Contains all functions prototype 
+
+
 **Author: Noble Okechukwu/ github: Nobly143**
