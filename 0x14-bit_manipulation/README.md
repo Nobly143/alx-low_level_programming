@@ -43,8 +43,10 @@
 * A password for the program ./crackme3.
 
 
+
+## File main.h 
+
+* The header file containing all the function prototypes of this project.
+
+
 **AUTHOR: NOBLE OKECHUKWU (Nobly143.git)**
-
-
-
-File holberton.h is the header file containing all the function prototypes of this project.
